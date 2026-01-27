@@ -64,6 +64,7 @@ _Provide enough background on your topic that others can understand the why and 
 
 ## Description of data and data source
 _Describe what the data is, what it contains, where it is from, etc. Eventually this might be part of a methods section._
+The exampledata.xlsx is a worksheet with Height, Weight, Gender column information. I have recently added two columns called  "Body_fat_percentage" as numeric variable, and "Exercise_type" as categorical variable representing the type of exercise an individual perform (none, cardio, strength, mixed). 
 
 ## Questions/Hypotheses to be addressed
 _State the research questions you plan to answer with this analysis._
