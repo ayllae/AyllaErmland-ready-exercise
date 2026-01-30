@@ -1,6 +1,6 @@
 ---
 title: "Report - Data Analysis Project"
-author: "Aylla von Ermland and Anissa Waller Del Valle"
+author: "Aylla von Ermland"
 format:
   html:
     embed-resources: true 
@@ -62,7 +62,7 @@ Scatterplot was produced with `Weight` on the x-axis and `Body_fat_percentage`:
 #| label: fig-weight-bodyfat
 #| fig-cap: "Scatterplot illustrating the relationship between weight and body fat percentage."
 #| echo: FALSE
-knitr::include_graphics(here("results", "figures", "weight_vs_bodyfatpercentage"))
+knitr::include_graphics(here("results", "figures", "weight_vs_bodyfatpercentage.png"))
 ```
 
 The third linear model assessed the relationship between Height (dependent variable), Body Fat Percentage, and Exercise Type. The results of this model are summarized in Table 3:
@@ -77,9 +77,8 @@ This table shows the estimated coefficients, standard errors, and significance l
 
 # Discussion and conclusion:
 
-The boxplot showing Height vs. Exercise_Type suggests exercises of type "strength only" are practiced by individuals with higher height, while "mixed" exercises are practiced by 
-people with a more wide range of height. But need statistics anlysis to make these conclusions. 
+The boxplot of Height by Exercise_Type suggests that individuals engaging in “strength-only” exercises tend to be taller, whereas those participating in “mixed” exercise types exhibit a wider range of heights. However, statistical analysis is necessary to confirm these observations.
 
-The scatterplot does not present a potential positive correlation between body_fat_percentage and weight. 
+The scatterplot does not indicate a potential positive correlation between Body_fat_percentage and Weight.
 
-For the statistical analysis, we saw there is no statistically significant association between Height and either Body_fat_percentage or Exercise_type in this dataset. All predictors had high p-values (p > 0.05), indicating that their estimated effects on Height are not statistically significant in this sample.
+In the statistical analysis, there was no statistically significant association between Height and either Body_fat_percentage or Exercise_type in this dataset. All predictors had high p-values (p > 0.05), suggesting that their estimated effects on Height are not statistically meaningful in this sample.
