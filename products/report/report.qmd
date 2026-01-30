@@ -19,7 +19,7 @@ library(knitr)
 
 **Authors**  
 
-* Aylla Ermland$^{1,2,*}$ (ORCID: 0000-0000-1234-5678) 
+* Aylla Ermland$^{1,2,*}$
 * Anissa Waller Del Valle$^{1,2 *}$
 
 **Author affiliations**  
